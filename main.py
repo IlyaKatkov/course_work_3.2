@@ -8,7 +8,7 @@ operations = utils.last_operations(DATA_PATH)
 five_last_operations = utils.correct_operations(operations)
 
 # Экземпляры класса
-Instances_of_classes = utils.list_class(operations)
+Instances_of_classes = utils.list_class(five_last_operations)
 
 # Вывод операций
 for operation in Instances_of_classes:
